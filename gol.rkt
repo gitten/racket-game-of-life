@@ -215,9 +215,9 @@
 
 
 (big-bang (world-10)
-          (on-tick a-whole-new-world 1/4)
+          (on-tick a-whole-new-world 1/8)
           (to-draw world-scene)
-          (record? "./images/")
+ ;         (record? "./images/")
           (on-key quit))
 
 (provide (all-defined-out))
